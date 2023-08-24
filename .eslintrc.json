@@ -63,7 +63,8 @@
 		"unicorn/filename-case": [
 			"error",
 			{
-				"case": "pascalCase"
+				"case": "pascalCase",
+				"ignore": ["^vite\\.config\\.ts$"]
 			}
 		],
 		"no-tabs": "off",
